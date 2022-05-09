@@ -1,0 +1,224 @@
+ctjsVersion: 2.0.2
+notes: /* empty */
+libs:
+  place:
+    gridX: 1024
+    gridY: 1024
+  fittoscreen:
+    mode: scaleFit
+  pointer: {}
+  keyboard: {}
+  keyboard.polyfill: {}
+  sound.howler: {}
+textures:
+  - lastmod: 1652099605076
+    type: texture
+    name: splash
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 256
+    imgHeight: 256
+    width: 256
+    height: 256
+    offx: 0
+    offy: 0
+    origname: iBHqrjqd5QPWWjT.png
+    shape: rect
+    left: 0
+    right: 256
+    top: 0
+    bottom: 256
+    uid: BHqrjqd5QPWWjT
+    padding: 1
+    group: !<tag:yaml.org,2002:js/undefined> ''
+    source: 'C:\Users\lab35.NAVE\ct.js\Projects\xnxx\img\splash.png'
+  - lastmod: 1652099550163
+    type: texture
+    name: Placeholder
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 80
+    imgHeight: 80
+    width: 80
+    height: 80
+    offx: 0
+    offy: 0
+    origname: iQ4NJW8hdn8cBjB.png
+    shape: rect
+    left: 0
+    right: 80
+    top: 0
+    bottom: 80
+    uid: Q4NJW8hdn8cBjB
+    padding: 1
+    group: !<tag:yaml.org,2002:js/undefined> ''
+  - lastmod: 1652099598740
+    type: texture
+    name: bloco roxo
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 40
+    imgHeight: 80
+    width: 40
+    height: 80
+    offx: 0
+    offy: 0
+    origname: idrGf5mgc5H3fdw.png
+    shape: rect
+    left: 0
+    right: 40
+    top: 0
+    bottom: 80
+    uid: drGf5mgc5H3fdw
+    padding: 1
+    group: !<tag:yaml.org,2002:js/undefined> ''
+skeletons: []
+templates:
+  - type: template
+    name: bug do mine
+    depth: 0
+    oncreate: ''
+    onstep: this.move();
+    ondraw: ''
+    ondestroy: ''
+    texture: drGf5mgc5H3fdw
+    visible: true
+    extends:
+      cgroup: 'Rhamilton silva da cilva '
+    lastmod: 1652099953298
+    uid: DH3p7N7C5qGgbM
+sounds: []
+styles: []
+rooms:
+  - type: room
+    oncreate: ''
+    onstep: ''
+    ondraw: ''
+    onleave: ''
+    gridX: 64
+    gridY: 64
+    width: 800
+    height: 600
+    name: Room_FdwWrJ
+    backgrounds: []
+    copies:
+      - x: 320
+        'y': 64
+        uid: DH3p7N7C5qGgbM
+        exts: {}
+      - x: 320
+        'y': 64
+        uid: DH3p7N7C5qGgbM
+        exts: {}
+      - x: 448
+        'y': 64
+        uid: DH3p7N7C5qGgbM
+        exts: {}
+      - x: 448
+        'y': 64
+        uid: DH3p7N7C5qGgbM
+        exts: {}
+      - x: 320
+        'y': 192
+        uid: DH3p7N7C5qGgbM
+        exts: {}
+      - x: 320
+        'y': 192
+        uid: DH3p7N7C5qGgbM
+        exts: {}
+      - x: 448
+        'y': 192
+        uid: DH3p7N7C5qGgbM
+        exts: {}
+      - x: 576
+        'y': 192
+        uid: DH3p7N7C5qGgbM
+        exts: {}
+      - x: 576
+        'y': 64
+        uid: DH3p7N7C5qGgbM
+        exts: {}
+      - x: 192
+        'y': 64
+        uid: DH3p7N7C5qGgbM
+        exts: {}
+      - x: 192
+        'y': 192
+        uid: DH3p7N7C5qGgbM
+        exts: {}
+    tiles:
+      - depth: -10
+        tiles: []
+        extends: {}
+    extends: {}
+    lastmod: 1652100213075
+    thumbnail: 8NkQdR73FdwWrJ
+    uid: 8NkQdR73FdwWrJ
+    backgroundColor: '#1A1A1A'
+actions: []
+emitterTandems: []
+scripts: []
+starting: 0
+contentTypes: []
+groups:
+  fonts: []
+  textures: []
+  styles: []
+  rooms:
+    - name: team xvideos
+      icon: folder
+      colorClass: error
+      uid: DP9JHBBgKPqdq4
+  templates: []
+  sounds: []
+  emitterTandems: []
+settings:
+  authoring:
+    author: renan bonossauro
+    site: ''
+    title: tatu do bem
+    version:
+      - 0
+      - 0
+      - 0
+    versionPostfix: ''
+  rendering:
+    usePixiLegacy: true
+    maxFPS: 60
+    pixelatedrender: false
+    highDensity: true
+    desktopMode: maximized
+  export:
+    windows: true
+    linux: true
+    mac: true
+    functionWrap: false
+    codeModifier: none
+  branding:
+    icon: -1
+    accent: '#446adb'
+    invertPreloaderScheme: true
+  fps: 30
+fonts: []
+palette: []
